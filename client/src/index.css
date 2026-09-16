@@ -51,9 +51,9 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
 
 .placeholder-mark { display: flex; align-items: center; gap: 9px; color: var(--paper); }
 .placeholder-mark__word { font-size: 30px; line-height: .9; letter-spacing: -.08em; font-weight: 600; }
-.placeholder-mark__seal { width: 28px; height: 28px; border: 1px solid currentColor; border-radius: 50%; display: grid; place-content: center; text-align: center; font: 6px/1.15 var(--mono); letter-spacing: .05em; }
+.community-logo { width: 38px; height: auto; display: block; object-fit: contain; }
 .placeholder-mark--compact .placeholder-mark__word { font-size: 18px; }
-.placeholder-mark--compact .placeholder-mark__seal { width: 20px; height: 20px; font-size: 4px; }
+.placeholder-mark--compact .community-logo { width: 27px; }
 
 .eyebrow, .label, .section-kicker, .hero-bottomline, .schedule-time, .form-footnote, .optional, .interlude-caption { font: 10px var(--mono); text-transform: uppercase; letter-spacing: .16em; }
 .eyebrow { color: var(--muted-paper); margin: 0 0 25px; }

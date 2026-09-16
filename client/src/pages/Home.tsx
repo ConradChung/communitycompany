@@ -15,7 +15,7 @@ function InsidersMark({ compact = false }: { compact?: boolean }) {
   return (
     <div className={`placeholder-mark ${compact ? "placeholder-mark--compact" : ""}`} aria-label="Insiders placeholder logo">
       <span className="placeholder-mark__word">INSIDERS</span>
-      <span className="placeholder-mark__seal">THE<br />ROOM</span>
+      <img className="community-logo" src="/manus-storage/pasted_file_FyYkgO_image_a056cd21.png" alt="The Community Company" />
     </div>
   );
 }
