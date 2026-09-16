@@ -81,7 +81,7 @@ export default function Home() {
           <p className="hero-subtitle">You have been nominated for INSIDERS</p>
           <div className="hero-actions">
             <button className="hero-cta" onClick={() => scrollToSection("story")}><span>Show me why</span><ArrowDown size={15} strokeWidth={1.5} /></button>
-            <button className="hero-skip" onClick={() => scrollToSection("rsvp")}><span>Skip to the point</span><ArrowUpRight size={14} strokeWidth={1.5} /></button>
+            <button className="hero-skip" onClick={() => scrollToSection("details")}><span>Skip to the point</span><ArrowUpRight size={14} strokeWidth={1.5} /></button>
           </div>
           <p className="hero-provenance"><span>A private room for GPs and LPs at</span><strong>a16z · Greylock · NEA · General Catalyst</strong></p>
         </div>
