@@ -79,12 +79,11 @@ export default function Home() {
           <p className="eyebrow">For Max Beaumont</p>
           <h1 id="hero-title">Max Beaumont</h1>
           <p className="hero-subtitle">You have been nominated for Aces</p>
-          <p className="hero-incentive">Your name was put forward for a reason.</p>
           <div className="hero-actions">
             <button className="hero-cta" onClick={() => scrollToSection("story")}><span>Show me why</span><ArrowDown size={15} strokeWidth={1.5} /></button>
             <button className="hero-skip" onClick={() => scrollToSection("rsvp")}><span>Skip to the point</span><ArrowUpRight size={14} strokeWidth={1.5} /></button>
           </div>
-          <p className="hero-provenance"><span>GPs and LPs at</span><strong>a16z · Greylock · NEA · General Catalyst</strong></p>
+          <p className="hero-provenance"><span>A private room for GPs and LPs at</span><strong>a16z · Greylock · NEA · General Catalyst</strong></p>
         </div>
         <div className="hero-note hero-note--right">
           <AcesMark />

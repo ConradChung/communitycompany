@@ -72,8 +72,8 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
 .hero-cta { border-bottom: 1px solid rgba(245,240,231,.72); }
 .hero-skip { border-bottom: 1px solid rgba(245,240,231,.26); color: rgba(245,240,231,.6); }
 .hero-cta:hover, .hero-skip:hover { gap: 23px; color: #e2b6aa; }
-.hero-provenance { display: flex; flex-direction: column; gap: 11px; margin: 56px 0 0; color: rgba(245,240,231,.46); font: 10px var(--mono); text-transform: uppercase; letter-spacing: .16em; }
-.hero-provenance strong { color: rgba(245,240,231,.86); font-size: 12px; font-weight: 400; letter-spacing: .14em; }
+.hero-provenance { display: flex; flex-direction: column; gap: 13px; margin: 58px auto 0; padding: 17px 24px 16px; border-top: 1px solid rgba(245,240,231,.32); border-bottom: 1px solid rgba(245,240,231,.32); color: rgba(245,240,231,.78); font: 11px var(--mono); text-transform: uppercase; letter-spacing: .17em; }
+.hero-provenance strong { color: var(--paper); font-size: 14px; font-weight: 400; letter-spacing: .15em; }
 .hero-note { position: absolute; z-index: 2; top: 50%; transform: translateY(-14%); font-size: 12px; line-height: 1.55; color: var(--muted-paper); }
 .hero-note p { margin: 0; }
 .hero-note--left { left: 8.3%; max-width: 210px; }
@@ -172,7 +172,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
   .hero-incentive { max-width: 245px; font-size: 11px; margin-bottom: 22px; }
   .hero-actions { gap: 15px; flex-wrap: wrap; }
   .hero-cta, .hero-skip { font-size: 8px; gap: 9px; }
-  .hero-provenance { max-width: 235px; margin: 34px auto 0; font-size: 8px; line-height: 1.5; }
+  .hero-provenance { max-width: 300px; margin: 34px auto 0; padding: 14px 12px 13px; font-size: 8px; line-height: 1.5; }
   .hero-provenance strong { font-size: 9px; letter-spacing: .08em; }
   .story-section, .details-section, .rsvp-section { padding: 105px 8% 100px; }
   .story-layout, .rsvp-layout { display: block; margin-top: 100px; }
