@@ -81,6 +81,7 @@ export default function Home() {
           <p className="eyebrow">For Alex Morgan</p>
           <h1 id="hero-title">Alex Morgan</h1>
           <p className="hero-subtitle">You have been nominated for Aces</p>
+          <p className="hero-incentive">Scroll to see why your name was put forward.</p>
           <button className="hero-cta" onClick={() => scrollToSection("story")}><span>Continue</span><ArrowDown size={15} strokeWidth={1.5} /></button>
         </div>
         <div className="hero-note hero-note--right">
