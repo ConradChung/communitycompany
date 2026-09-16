@@ -63,7 +63,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
 .hero-frame, .interlude-frame { pointer-events: none; position: absolute; inset: 40px 2.4vw 34px; border: 1px solid var(--line-light); border-radius: 34px; }
 .hero-center { position: relative; z-index: 1; text-align: center; transform: translateY(3vh); }
 .hero-center .eyebrow { margin-bottom: 22px; }
-.hero-center h1 { font: 500 clamp(64px, 11vw, 178px)/.82 var(--serif); letter-spacing: -.085em; margin: 0 0 42px; }
+.hero-center h1 { font: 600 clamp(58px, 10vw, 160px)/.86 var(--sans); letter-spacing: -.085em; margin: 0 0 42px; }
 .hero-dot { font-family: var(--sans); font-size: .36em; vertical-align: 15%; padding: 0 .04em; }
 .hero-subtitle { font: 12px var(--mono); text-transform: uppercase; letter-spacing: .18em; color: var(--muted-paper); margin: 0 0 16px; }
 .hero-incentive { max-width: 310px; margin: 0 auto 28px; color: rgba(245,240,231,.62); font: 12px/1.55 var(--serif); font-style: italic; }
@@ -166,7 +166,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
   .hero-note--right .placeholder-mark { display: none; }
   .hero-bottomline { left: 8%; right: 8%; bottom: 48px; font-size: 8px; }
   .hero-bottomline span:nth-child(2) { display: none; }
-  .hero-center h1 { font-size: clamp(64px, 19vw, 130px); }
+  .hero-center h1 { font-size: clamp(54px, 16vw, 110px); }
   .hero-center h1 { margin-bottom: 30px; }
   .hero-subtitle { font-size: 9px; letter-spacing: .12em; margin-bottom: 13px; }
   .hero-incentive { max-width: 245px; font-size: 11px; margin-bottom: 22px; }
