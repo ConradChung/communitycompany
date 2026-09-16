@@ -74,19 +74,17 @@ export default function Home() {
         <div className="hero-frame" />
         <div className="hero-note hero-note--left">
           <p>A nomination has<br />been made in your name.</p>
-          <span className="micro-rule" />
-          <p className="muted-copy">There is no public<br />front door.</p>
         </div>
         <div className="hero-center">
-          <p className="eyebrow">For Alex Morgan</p>
-          <h1 id="hero-title">Alex Morgan</h1>
+          <p className="eyebrow">For Max Beaumont</p>
+          <h1 id="hero-title">Max Beaumont</h1>
           <p className="hero-subtitle">You have been nominated for Aces</p>
           <p className="hero-incentive">Your name was put forward for a reason.</p>
           <div className="hero-actions">
             <button className="hero-cta" onClick={() => scrollToSection("story")}><span>Show me why</span><ArrowDown size={15} strokeWidth={1.5} /></button>
             <button className="hero-skip" onClick={() => scrollToSection("rsvp")}><span>Skip to the point</span><ArrowUpRight size={14} strokeWidth={1.5} /></button>
           </div>
-          <p className="hero-provenance"><span>Aces includes people from</span><strong>a16z · Greylock · NEA · General Catalyst</strong></p>
+          <p className="hero-provenance"><span>GPs and LPs at</span><strong>a16z · Greylock · NEA · General Catalyst</strong></p>
         </div>
         <div className="hero-note hero-note--right">
           <AcesMark />
@@ -133,7 +131,7 @@ export default function Home() {
           <div className="rsvp-message"><p className="eyebrow">Your name is in the room</p><h2 id="rsvp-title">A quiet<br /><em>yes?</em></h2><p>There is no application to complete. Let us know if you would like to continue the conversation and the committee will follow up privately.</p><div className="rsvp-mark"><AcesMark /></div></div>
           <div className="form-panel">
             {submitted ? <div className="success-state"><div className="success-icon"><Check size={20} strokeWidth={1.5} /></div><p className="eyebrow">Received privately</p><h3>We will be<br /><em>in touch.</em></h3><p>Your response has been shared with the Aces committee.</p><button className="text-link" onClick={() => setSubmitted(false)}>Send another response</button></div> : <form onSubmit={handleSubmit}>
-              <label>Full name<input required name="name" defaultValue="Alex Morgan" /></label>
+              <label>Full name<input required name="name" defaultValue="Max Beaumont" /></label>
               <label>Email address<input required type="email" name="email" placeholder="you@example.com" /></label>
               <label>Would you like to continue the conversation?<select name="attendance" defaultValue="yes"><option value="yes">Yes, I would</option><option value="maybe">I have a question first</option><option value="no">Not at this time</option></select></label>
               <label>Note for the committee <span className="optional">Optional</span><textarea name="note" rows={3} placeholder="Anything you would like us to know" /></label>
